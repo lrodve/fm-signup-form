@@ -156,15 +156,16 @@ body {
   .grid {
     height: 100vh;
     display: grid;
-    grid-template-columns: 5% 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
   }
 
   .title_section {
-    grid-column: 2;
+    grid-column: 1;
     height: 50vh;
     text-align: left;
+    padding-left: 8vw;
   }
   .title_section h1 {
     padding-left: 0;
@@ -180,8 +181,12 @@ body {
   }
 
   .form_section {
-    grid-column: 3;
-    padding-right: 20%;
+    grid-column: 2;
+    padding-right: 8vw;
+  }
+  .form_section .tryit-button {
+    padding-left: 0;
+    padding-right: 0;
   }
   .form_section form {
     padding: 40px;
