@@ -181,6 +181,7 @@ body {
 
   .form_section {
     grid-column: 3;
+    padding-right: 20%;
   }
   .form_section form {
     padding: 40px;
